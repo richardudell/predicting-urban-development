@@ -1,4 +1,4 @@
-name: ea-py36-a1
+name: ea-python-pysptools-ee
 channels:
   - conda-forge
   - defaults
@@ -30,19 +30,27 @@ dependencies:
   - hydrofunctions
   - geocoder
   - tweepy
+  - xarray
+  - scipy
+  - spectral
+  - earthengine-api
+  - geemap
 
   # Natural language processing
   - nltk
   - textblob
 
   # Jupyter Environment
+  - papermill
   - autopep8
   - jupyterlab
   - notebook
-  # Do we need this?
   - ipython
   - jupyter_contrib_nbextensions
   - nbclean
   # Autograding
-  - matplotcheck
+  - matplotcheck>=0.1.2
   - nbgrader
+
+  - pip:
+    - pysptools
