@@ -1,10 +1,10 @@
-name: ea-python-pysptools-ee
+name: ea-python-ee
 channels:
   - conda-forge
   - defaults
 
 dependencies:
-  - python=3.6
+  - python=3.7
   - pip
   # Core scientific python
   - numpy
@@ -51,6 +51,3 @@ dependencies:
   # Autograding
   - matplotcheck>=0.1.2
   - nbgrader
-
-  - pip:
-    - pysptools
