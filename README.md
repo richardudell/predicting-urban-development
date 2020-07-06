@@ -6,6 +6,9 @@ There are two Jupyter Notebooks in the Notebooks folder.
 The first notebook, LinearFit_Workflow_Only.ipynb, contains the analysis that identifies urban trend surrounding DIA using GEE’s built-in ee.Reducer.linearFit().
 The second notebook, GEE_Python_API_Tutorial.ipynb, includes a tutorial for the first notebook!  This is a great place to start if you are new to Python and the GEE Python API.  
 
+### Best place to start
+Start with the workflow tutorial notebook: GEE_Python_API_Tutorial.ipynb
+
 ### Environment and setup
 To [set up the development environment](https://www.earthdatascience.org/courses/intro-to-earth-data-science/python-code-fundamentals/use-python-packages/use-conda-environments-and-install-packages/), create a new environment from the environment-ee.yml file.
 
